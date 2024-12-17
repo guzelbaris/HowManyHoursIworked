@@ -41,6 +41,7 @@ class DatabaseService {
         )
         ''');
       },
+      readOnly: false,
     );
     return database;
   }
